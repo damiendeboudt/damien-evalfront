@@ -28,7 +28,7 @@ html{
     display: flex;
     flex-direction: column;
     font-size: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-left: 5rem;
 
 }
@@ -122,9 +122,9 @@ html{
 .brad button {
     background-color: rgba(0, 128, 0, 0);
     border: 2px solid white;
-    padding: 1rem;
-    display: inline-flex;
-    width: 10rem;
+    height: 5rem;
+margin: 1rem;
+    width: 13rem;
     box-shadow: 2px 2px 2px black;
     border-radius: 5px;
 }
