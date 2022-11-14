@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,171 +8,112 @@
 html{
     font-size: 62.5%;
 }
-body{
-    width: 100%;
-    display: flex;
-    margin: 1rem 1rem;
-}
 .container{
-    width: 65%;
-    border: 1px solid black;
+    width: 100%;
+    height: 90rem;
     display: flex;
-    flex-wrap:wrap ;
-    flex-direction: row;
-    justify-content: flex-start;
 }
-.haut_gauche {
+.div-gauche{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div-droite{
+    width: 40%;
+}
+.brad{
+    width: 70%;
     background-color: #35bc7a;
-    width: 67%;
-    height: 34%;
-    color: white;
-    font-size: 1.7rem;
-    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    justify-content: space-around;
 }
 .profile{
+    width: 30%;
     background-color: #ff9e00;
-    width: 33%;
-    height: 34%;
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 .exp{
+    width: 35%;
     background-color: #1e8bc4;
-    width: 33%;
-    height: 33%;
 }
 .educ{
+    width: 35%;
     background-color: #f15a49;
-    width: 34%;
-    height: 33%;
 }
 .blog{
+    width: 30%;
     background-color: #35bc7a;
-    width: 33%;
-    height: 33%;
 }
 .social{
-    background-color: #f86925;
-    width: 33%;
-    height: 33%;
+    width: 35%;
+    background-color: rgb(248, 105, 37);
 }
 .contact{
+    width: 35%;
     background-color: #1e8bc4;
-    width: 34%;
-    height: 33%;
 }
 .porto{
+    width: 30%;
     background-color: #f86925;
-    width: 33%;
-    height: 33%;
 }
-.image{
-    width: 35%;
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-span{
-    display: block;
-    margin: 1rem;
+.exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-button {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid white;
-    color: white;
-    width: 10rem;
-    height: 4rem;
-    margin: 1rem;
+.educ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-h1{
-    margin-left: 1rem;
+.blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.profile button{F86925
-    background-color: black;
-    width: 100%;
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.porto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-droite img{
     height: 100%;
-    opacity: 0;
 }
+.brad button {
+    background-color: rgba(0, 128, 0, 0);
+    border: 2px solid white;
+    padding: 1rem;
+    display: inline-flex;
+    width: 15%;
+}
+
 button:hover{
     cursor: pointer;
 }
-.porto button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.blog button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.exp button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.educ button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.blog button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.social button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.contact button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.porto button{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
-.container img{
-    width: 10rem;
-   margin-left: 15rem;
-    margin-top: 10rem;
-}
-.social span{
-    margin-left: 14rem;
-    font-size: 1.5rem;
-}
-.contact span{
-    font-size: 1.5rem;
-    margin-left: 15rem;
-    margin-top: 4rem;
-}
-.porto span{
-    font-size: 1.5rem;
-    margin-left: 15rem;
-    margin-top: 3rem;
-}
-.exp span{
-    margin-left: 15rem;
-    font-size: 1.5rem;
-    margin-top: 3rem;
-}
-.educ span{
-    margin-left: 15rem;
-    font-size: 1.5rem;
-}
-.profile span{
-    margin-left: 16rem;
-}
-.blog span{
-    margin-left: 17rem;
-    font-size: 1.5rem;
+h1{
+    font-size: 3rem;
 }
